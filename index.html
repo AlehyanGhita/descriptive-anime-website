@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the world of anime</title>
+    <link rel="stylesheet" href="monstyle.css">
+    <script src="monstyle.js"></script>
+</head>
+<body>
+<!-- Conteneur principal avec le logo et la barre de navigation -->
+    <div class="container">
+        <img src="images/logo.png" alt="logo" height="200">
+        <nav>
+    <img src="images/image.png" alt="home" height="50">
+    <a href="index.html" class="nav-btn" >Accueil</a>
+
+<img src="images/history.png" alt="history" height="50">
+    <a href="l'histoire.html" class="nav-btn">L'histoire des anime</a>
+
+    <img src="images/types.png" alt="types" height="50">
+        
+    <a href="action.html" class="nav-btn">ACTION</a> 
+    <a href="sports.html" class="nav-btn">SPORTS</a> 
+    <a href="horror.html" class="nav-btn">HORROR</a> 
+    <a href="fantasy.html" class="nav-btn">FANTASY</a>
+
+
+    <img src="images/quiz.png" alt="quiz" height="50">
+   <a href="quiz.html" class="nav-btn">QUIZ</a>
+   </nav> 
+    </div>
+<!-- En-tête principal -->
+<header class="tete">
+       
+     <h1 class="top">the world of anime!</h1>
+   <img src="images/new.jpg" alt="anime world"  width="1240"  height="400">
+</header>
+<!-- Section de bienvenue -->
+<div>
+    <h2>Bienvenue sur the world of anime!</h2> 
+    <!-- Petite description du site -->
+    <p>Découvrez l'histoire et les meilleurs animes classés par type : action, sport, sport et plus! </p>
+</div>
+<br>
+
+  <!-- Formulaire d'abonnement -->
+<div>
+    <fieldset>
+        <legend>Abonnez vous pour plus d'informations</legend><br>
+
+        <label for="name">Nom Complet</label><br>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="gender">sexe</label><br>
+        <input type="text" list="sexe"  id="gender" name="gender" required><br>
+        <datalist id="sexe">
+            <option value="femelle"></option>
+            <option value="male"></option>
+        </datalist>
+
+        <label for="number">Age</label><br>
+        <input type="number"  min="10" id="number" name="number" required><br>
+
+        <label for="email">email</label><br>
+        <input type="email" placeholder="example@email.com" id="email" name="email" required><br>
+
+        <label for="tel">telephone</label><br>
+        <input type="tel" pattern="[0-9]{10}" id="tel" name="tel" required><br><br>
+
+        <input type="submit" value="soumettre">
+    </fieldset><br>
+</div><br>
+<!-- Pied de page -->
+  <footer>
+     <!-- Bouton pour afficher le temps avec JavaScript -->
+         <button onclick="temps()" class="nav-btn">voir le temps</button><br>
+         <br>
+         <!-- Copyright -->
+        &copy; ALEHYAN GHITA <br>
+
+    </footer>
+
+
+</body>
+</html>
